@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* backgrocolor: linear-gradient(rgba(3, 3, 247, 1) rgba(3, 3, 247, 0.1)); */
+    background-image: linear-gradient(to right, rgba(138, 43, 226, 1), rgba(138, 43, 226, 0.4)) 
+    /* background-color: rgb(138, 43, 226); */
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    animation: updown 1s linear infinite ;
+}
+@keyframes updown {
+    100%{transform: translateY(-1em);}
+    50%{transform: translateY(1em);}
+    0%{transform: translateY(-1em);}
+    
+}
+
+#manimage{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.heads{
+    margin: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
+}
+.para{
+    text-align: center;
+}
+.icons{
+    width: 300px;
+    margin: auto;
+}
+.iconlink{
+    height: 2em;
+    width: 2em;
+    margin: 1em;
+    background-color: white;
+}
+.iconlink:hover{
+    background-color: red;
+}
+.flex{
+    margin-top: 100px;
+    width: 250px;
+    display: flex;
+    background-color: rgb(218, 52, 52);
+
+}
+.cofee{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(218, 52, 52);
+}
+.cup{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+}
+.heart{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(237, 10, 10);
+}
+.buy-text{
+    width: 150px;
+}
+.text{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.small{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: yellow;
+}
+.zero{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
