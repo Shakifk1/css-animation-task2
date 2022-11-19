@@ -41,6 +41,7 @@ body{
 .iconlink{
     height: 2em;
     width: 2em;
+    border-radius: 1em 0em;
     margin: 1em;
     background-color: white;
 }
@@ -49,7 +50,7 @@ body{
 }
 .flex{
     margin-top: 100px;
-    width: 250px;
+    width: 282px;
     display: flex;
     background-color: rgb(218, 52, 52);
 
@@ -67,9 +68,10 @@ body{
 .heart{
     height: 50px;
     width: 50px;
-    background-color: rgb(237, 10, 10);
+    background-color: rgb(195, 237, 10);
 }
 .buy-text{
+    padding: 1em;
     width: 150px;
 }
 .text{
@@ -82,9 +84,7 @@ body{
 .small{
     height: 30px;
     width: 30px;
-    border-radius: 50%;
     margin: auto;
-    background-color: yellow;
 }
 .zero{
     margin: 1%;
